@@ -1,8 +1,8 @@
-package flightService.service.Controller;
+package flightSearchService.service.Controller;
 
-import flightService.service.Entity.FlightSearchRequest;
-import flightService.service.Entity.FlightSearchResponse;
-import flightService.service.Service.FlightSearchService;
+import flightSearchService.service.Entity.FlightSearchRequest;
+import flightSearchService.service.Entity.FlightSearchResponse;
+import flightSearchService.service.Service.FlightSearchService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

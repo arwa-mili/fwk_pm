@@ -1,10 +1,10 @@
-package flightService.service.Service;
+package flightSearchService.service.Service;
 
 
-import flightService.service.Entity.Flight;
-import flightService.service.Entity.FlightSearchRequest;
-import flightService.service.Entity.FlightSearchResponse;
-import flightService.service.Repository.FlightSearchRepository;
+import flightSearchService.service.Entity.Flight;
+import flightSearchService.service.Entity.FlightSearchRequest;
+import flightSearchService.service.Entity.FlightSearchResponse;
+import flightSearchService.service.Repository.FlightSearchRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class FlightSearchServiceImpl implements FlightSearchService {
 
-    private final FlightSearchRepository flightSearchRepository;
+    private FlightSearchRepository flightSearchRepository;
 
     public List<FlightSearchResponse> searchFlights(FlightSearchRequest flightSearchRequest) {
         List<Flight> flights = flightSearchRepository

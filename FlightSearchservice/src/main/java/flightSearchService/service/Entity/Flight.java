@@ -1,4 +1,4 @@
-package flightService.service.Entity;
+package flightSearchService.service.Entity;
 
 
 
