@@ -4,6 +4,7 @@ package flightSearchService.service.Service;
 import flightSearchService.service.Entity.Flight;
 import flightSearchService.service.Entity.FlightSearchRequest;
 import flightSearchService.service.Entity.FlightSearchResponse;
+
 import flightSearchService.service.Repository.FlightSearchRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;

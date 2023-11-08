@@ -2,7 +2,9 @@ package flightSearchService.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
+@ComponentScan("flightSearchService.service.Repository")
 @SpringBootApplication
 public class FlightSearchServiceApplication {
 

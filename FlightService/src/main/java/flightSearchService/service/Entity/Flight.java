@@ -31,3 +31,20 @@ public class Flight {
     private int availableSeats;
     private double amount;
 }
+
+
+
+
+/*{
+
+        "flightId":1,
+        "flightNumber":12,
+        "origin": "Monastir",
+        "destination" :"Tunis",
+        "departureDate" : 5,
+        "arrivalDate" : 6,
+        "totalSeats" : 15,
+        "availableSeats" : 8,
+        "amount": 45
+        }
+ */
