@@ -14,17 +14,21 @@
 	<name>fwk</name>
 	<packaging>pom</packaging>
 	<modules>
+		<module>Chat</module>
 		<module>FlightService</module>
 		<module>FlightSearchservice</module>
 		<module>gateway</module>
 		<module>BookingticketService</module>
+		<module>NotificationService</module>
+		<module>discovery</module>
+
 
 
 
 	</modules>
 	<description>Projet module frameworks</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>20</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

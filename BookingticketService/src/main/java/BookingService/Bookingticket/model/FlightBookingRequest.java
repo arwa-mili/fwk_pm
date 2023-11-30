@@ -6,4 +6,5 @@ import lombok.Data;
 public final class FlightBookingRequest extends BookingRequest {
     private String flightNumber;
 
+
 }

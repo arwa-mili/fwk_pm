@@ -14,7 +14,6 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @DiscriminatorValue("HOTEL")
 public class HotelBooking extends Booking {
-
     private String hotelName;
     private LocalDate checkInDate;
     private LocalDate checkOutDate;

@@ -4,12 +4,16 @@ package BookingService.Bookingticket.controller;
 import BookingService.Bookingticket.model.BookingResponse;
 import BookingService.Bookingticket.model.FlightBookingRequest;
 import BookingService.Bookingticket.model.HotelBookingRequest;
-import jakarta.inject.Qualifier;
+
 import lombok.extern.log4j.Log4j2;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import BookingService.Bookingticket.service.BookingService;
+
+
 
 @RestController
 @RequestMapping("/v1/api/bookings")

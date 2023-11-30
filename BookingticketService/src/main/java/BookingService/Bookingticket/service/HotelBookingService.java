@@ -10,6 +10,7 @@ import BookingService.Bookingticket.model.HotelBookingResponse;
 import BookingService.Bookingticket.repository.HotelBookingRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -17,6 +18,7 @@ import java.util.UUID;
 
 @Service
 @RequiredArgsConstructor
+@Qualifier("hotelBookingService")
 public class HotelBookingService implements BookingService {
 
     private final HotelBookingRepository hotelBookingRepository;

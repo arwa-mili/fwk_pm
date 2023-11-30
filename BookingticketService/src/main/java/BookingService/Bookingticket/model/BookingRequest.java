@@ -9,4 +9,5 @@ public sealed class BookingRequest permits FlightBookingRequest, HotelBookingReq
     String passengerName;
     double amount;
     PaymentMode paymentMode;
+
 }

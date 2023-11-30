@@ -7,8 +7,7 @@ import lombok.Setter;
 import java.time.LocalDate;
 
 
-@Getter
-@Setter
+@Data
 public final class HotelBookingRequest extends BookingRequest {
 
     private String hotelName;

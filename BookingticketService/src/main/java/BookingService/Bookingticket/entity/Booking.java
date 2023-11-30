@@ -11,10 +11,9 @@ import jakarta.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@Table(name = "Bookings")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "booking_type", discriminatorType = DiscriminatorType.STRING)
-
+@Table(name = "Bookings")
 public class Booking {
 
     @Id
