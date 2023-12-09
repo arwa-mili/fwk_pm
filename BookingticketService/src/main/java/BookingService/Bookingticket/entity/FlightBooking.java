@@ -11,5 +11,5 @@ import lombok.*;
 public class FlightBooking extends Booking {
 
     private String flightNumber;
-
+    private String destination;
 }

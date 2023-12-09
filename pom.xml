@@ -14,16 +14,12 @@
 	<name>fwk</name>
 	<packaging>pom</packaging>
 	<modules>
-		<module>Chat</module>
-		<module>FlightService</module>
-		<module>FlightSearchservice</module>
-		<module>gateway</module>
-		<module>BookingticketService</module>
-		<module>NotificationService</module>
-		<module>discovery</module>
-
-
-
+    <module>flight-service</module>
+	<module>flightSearchService</module>
+	<module>gateway</module>
+	<module>BookingticketService</module>
+	<module>discovery</module>
+	<module>NotificationService</module>
 
 	</modules>
 	<description>Projet module frameworks</description>

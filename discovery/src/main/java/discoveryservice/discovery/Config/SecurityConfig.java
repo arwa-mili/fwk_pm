@@ -1,5 +1,5 @@
 package discoveryservice.discovery.Config;
-
+/*
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,8 +14,10 @@ public class SecurityConfig extends SecurityConfigurerAdapter {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
-        httpSecurity.csrf().ignoringRequestMatchers("/eureka/**");
+        httpSecurity.csrf(ignoringRequestMatchers("/eureka/**");
         return httpSecurity.build();
     }
 
 }
+
+ */
